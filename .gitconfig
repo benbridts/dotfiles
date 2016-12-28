@@ -1,0 +1,7 @@
+[user]
+	email = ben.bridts@gmail.com
+	name = Ben Bridts
+[push]
+	default = simple
+[core]
+	excludesfile = /Users/ben/.gitignore_global
