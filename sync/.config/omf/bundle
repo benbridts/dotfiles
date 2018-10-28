@@ -1,5 +1,5 @@
+package aws
 package bang-bang
 package thefuck
-package z
 theme coffeeandcode
 theme default

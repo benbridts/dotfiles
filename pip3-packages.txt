@@ -1,0 +1,16 @@
+# AWS
+aws-shell
+awscli
+awsebcli
+aws-sam-cli
+cfn-lint
+# AWS - third party
+cfn_flip
+
+
+# Config MGMT
+# ansible
+
+# Development
+jupyter
+virtualenv

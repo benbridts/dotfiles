@@ -1,21 +1,12 @@
 #!/usr/bin/env bash
 # based on https://github.com/mathiasbynens/dotfiles/blob/master/bootstrap.sh
 
-cd "$(dirname "${BASH_SOURCE}")";
-
-git pull origin master;
+cd "$(dirname "${BASH_SOURCE}")/sync";
 
 function doIt() {
-  ./macos.sh
-  ./install.sh
-
   rsync --exclude ".git/" \
     --exclude ".gitignore" \
-    --exclude "vendor/" \
     --exclude ".DS_Store" \
-    --exclude "*.sh" \
-    --exclude "*.md" \
-    --exclude "LICENSE-MIT.txt" \
     -avh --no-perms . ~;
 }
 
