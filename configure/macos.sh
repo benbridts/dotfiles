@@ -85,9 +85,6 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 defaults write com.apple.finder NewWindowTarget -string "PfDe"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
 
-# Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
 
@@ -163,10 +160,6 @@ defaults write com.apple.dock wvous-bl-modifier -int 0
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
-# Disable local Time Machine backups
-hash tmutil &> /dev/null && sudo tmutil disablelocal
-
-
 ###############################################################################
 # Address Book, Dashboard, iCal, TextEdit, and Disk Utility                   #
 ###############################################################################
@@ -177,13 +170,6 @@ defaults write com.apple.TextEdit RichText -int 0
 # Open and save files as UTF-8 in TextEdit
 defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
-
-###############################################################################
-# Mac App Store                                                               #
-###############################################################################
-
-# Automatically download apps purchased on other Macs
-defaults write com.apple.SoftwareUpdate ConfigDataInstall -int 1
 
 ###############################################################################
 # Photos                                                                      #

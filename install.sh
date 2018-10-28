@@ -25,76 +25,8 @@ brew upgrade
 # Software that doesn't need anything special
 ###
 echo "=== Install from Homebrew ==="
-brew install \
-  # android-platform-tools \
-  aria2 \
-  bash \
-  colordiff \
-  # ffmpeg \
-  findutils \
-  # gifsicle \
-  git \
-  git-flow-avh \
-  graphicsmagick \
-  graphviz \
-  grep \
-  httpie \
-  iproute2mac \
-  nmap \
-  npm \
-  pipenv \
-  # php71 \
-  # this is python 3
-  python \
-  python@2 \
-  ruby \
-  slackcat \
-  terraform \
-  thefuck \
-  z
+brew bundle
 
-###
-# Links
-###
-brew link ruby
-
-###
-# Taps
-###
-brew tap homebrew/services
-
-###
-# Casks
-##
-echo "=== Install from Homebrew Casks ==="
-brew tap caskroom/cask
-brew tap caskroom/versions
-brew cask install \
-  adobe-reader \
-  # android-studio \
-  atom \
-  caskroom/fonts/font-hack \
-  # crashplan \
-  dropbox \
-  docker \
-  firefox \
-  freedome \
-  gimp \
-  google-chrome \
-  java \
-  keepingyouawake \
-  moom \
-  # ngrok \
-  pycharm-ce \
-  rocket \
-  skype-for-business \
-  slack \
-  spotify \
-  spotify-notifications \
-  tunnelblick \
-  visual-studio-code \
-  vlc \
-  wireshark
 
 ###
 # Pip
