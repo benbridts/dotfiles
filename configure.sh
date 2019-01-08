@@ -2,7 +2,6 @@
 set -euf -o pipefail
 # VARIABLES AND SETTINGS
 source settings.sh
-source secrets.sh
 
 cd "$(dirname "${BASH_SOURCE}")";
 

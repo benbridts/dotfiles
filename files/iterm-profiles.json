@@ -1,0 +1,76 @@
+{
+  "Profiles": [
+    {
+      "Name": "default",
+      "Guid": "dotfiles-profile-default",
+      "Custom Directory" : "Advanced",
+      "AWDS Tab Option" : "Recycle",
+      "AWDS Pane Option" : "Recycle",
+      "AWDS Window Option" : "No",
+      "Foreground Color" : {
+        "Green Component" : 0,
+        "Red Component" : 0,
+        "Blue Component" : 0
+      },
+      "Background Color" : {
+        "Green Component" : 1,
+        "Red Component" : 1,
+        "Blue Component" : 1
+      },
+      "Bold Color" : {
+        "Green Component" : 0,
+        "Red Component" : 0,
+        "Blue Component" : 0
+      },    
+      "Link Color" : {
+        "Red Component" : 0,
+        "Color Space" : "sRGB",
+        "Blue Component" : 0.73423302173614502,
+        "Alpha Component" : 1,
+        "Green Component" : 0.35916060209274292
+      },
+      "Cursor Color" : {
+        "Green Component" : 0,
+        "Red Component" : 0,
+        "Blue Component" : 0
+      },
+      "Cursor Text Color" : {
+        "Green Component" : 1,
+        "Red Component" : 1,
+        "Blue Component" : 1
+      },
+      "Normal Font" : "HackNerdFontComplete-Regular 12",
+      "Unlimited Scrollback" : true,
+      "Show Status Bar" : true,
+      "Status Bar Layout" : {
+        "components" : [
+          {
+            "class" : "iTermStatusBarWorkingDirectoryComponent",
+            "configuration":{
+              "knobs" : {
+                "path" : "path"
+              }
+            }
+          },
+          {
+            "class" : "iTermStatusBarGitComponent",
+            "configuration" : {
+              "knobs" : {
+                "iTermStatusBarGitComponentPollingIntervalKey" : 2
+              }
+            }
+          },
+          {
+            "class" : "iTermStatusBarSwiftyStringComponent",
+            "configuration" : {
+              "knobs" : {
+                "expression" : "\\(user.awsVaultProfile)"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+  }
+  
