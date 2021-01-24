@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# source settings - so this can also be used standalone
+source settings.sh
+
 mkdir -p ~/Library/Application\ Support/Many\ Tricks/Licenses/
 echo $MOOM_LICENCES_BASE64 | base64 --decode > ~/Library/Application\ Support/Many\ Tricks/Licenses/dotfiles.moomlicense
 
