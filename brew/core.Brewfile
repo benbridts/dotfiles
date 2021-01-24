@@ -14,6 +14,8 @@ brew "figlet"
 brew "findutils"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
+# GitHub command-line tool
+brew "gh"
 # Distributed revision control system
 brew "git"
 # Command-line option parsing utility
