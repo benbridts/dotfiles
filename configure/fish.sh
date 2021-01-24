@@ -21,9 +21,12 @@ fi
 # - .local/bin is used by pipx
 fish -c "set -u fish_user_paths ${HOME}/.cargo/bin ${HOME}/.local/bin"
 
-# Add complettions for pipx
+# Add completions
 mkdir -p ${HOME}/.config/fish/completions
+# - pipx
 register-python-argcomplete --shell fish pipx > ${HOME}/.config/fish/completions/pipx.fish
+# - gh
+gh completion -s fish > ${HOME}/.config/fish/completions/gh.fish
 
 # Install shell integrations for iterm
 curl -L https://iterm2.com/shell_integration/fish \
