@@ -5,7 +5,7 @@ source settings.sh
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-for file in $(find configure -name '*.sh') ; do
+for file in $(find configure -name '*.sh' | sort) ; do
   echo "Executing ${file}"
   source ${file}
 done
