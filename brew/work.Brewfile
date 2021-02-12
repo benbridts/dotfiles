@@ -1,6 +1,7 @@
 cask "amazon-chime"
 cask "adobe-acrobat-reader"
 cask "discord"
+cask "discord-ptb"
 cask "drawio"
 cask "jetbrains-toolbox"
 cask "microsoft-office"
