@@ -28,6 +28,7 @@ register-python-argcomplete --shell fish pipx > ${HOME}/.config/fish/completions
 # - gh
 gh completion -s fish > ${HOME}/.config/fish/completions/gh.fish
 
+mkdir -p ${HOME}/.config/fish/conf.d
 # Install shell integrations for iterm
 curl -L https://iterm2.com/shell_integration/fish \
   -o $HOME/.config/fish/conf.d/zzz_iterm2_shell_integration.fish

@@ -3,12 +3,6 @@ set -euf  -o pipefail
 echo "=== starting installation ==="
 source settings.sh
 
-# Make sure we are signed in to the apple store
-if ! mas account >/dev/null; then
-  echo "Please sign in to the AppStore" >&2
-  exit 1
-fi
-
 # Ask for the administrator password upfront
 sudo -v
 
@@ -36,6 +30,16 @@ echo "=== Update & Upgrade Homebrew ==="
 brew update
 # Upgrade any already-installed formulae.
 brew upgrade
+
+echo "=== Check Appstore integration ==="
+# AppStore runs into a chicken-and-egg situation. We need mas installed to run
+# brew bundle, but that would also be were we install it
+brew install mas
+# Make sure we are signed in to the apple store
+if ! mas account >/dev/null; then
+  echo "Please sign in to the AppStore" >&2
+  exit 1
+fi
 
 ###
 # Software that doesn't need anything special
