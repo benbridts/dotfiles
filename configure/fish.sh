@@ -34,7 +34,7 @@ curl -L https://iterm2.com/shell_integration/fish \
   -o $HOME/.config/fish/conf.d/zzz_iterm2_shell_integration.fish
 
 # Install OMF
-fish -c 'omf --version' || ( curl -L https://get.oh-my.fish | fish )
+fish -c 'omf --version' || ( curl -L https://get.oh-my.fish | NONINTERACTIVE='' fish )
 # update OMF
 fish -c 'omf update'
 # install things with omf
