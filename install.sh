@@ -84,9 +84,7 @@ pipx upgrade-all
 ##
 npm install -g serverless
 npm install -g cloudformation-graph
-npm install -g aws-sam-local
 npm install -g @mhlabs/cfn-diagram
-npm install -g aws-cdk
 
 ###
 # Rust
