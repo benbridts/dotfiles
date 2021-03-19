@@ -57,6 +57,10 @@ brew "ykman"
 # Tracks most-used directories to make cd smarter
 brew "z"
 
+# to install jp
+tap "jmespath/jmespath"
+brew "jmespath/jmespath/jp"
+
 cask "1Password"
 cask "alfred"
 cask "cleanshot"
