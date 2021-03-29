@@ -42,6 +42,8 @@ brew "jq"
 brew "mas"
 # Port scanning utility for large networks
 brew "nmap"
+# Shell command parallelization utility
+brew "parallel"
 # Monitor data's progress through a pipe
 brew "pv"
 # SOcket CAT: netcat on steroids

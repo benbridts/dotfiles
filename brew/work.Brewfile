@@ -1,3 +1,6 @@
+# Password manager
+brew "pass"
+
 cask "amazon-chime"
 cask "adobe-acrobat-reader"
 cask "discord"
