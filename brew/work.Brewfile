@@ -12,6 +12,7 @@ cask "microsoft-teams"
 cask "skype"
 cask "slack"
 cask "tunnelblick"
+cask "vagrant"
 cask "visual-studio-code"
 cask "zoom"
 
