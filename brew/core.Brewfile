@@ -6,6 +6,8 @@ brew "bash"
 brew "colordiff"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Dell / DDC monitor controls (brightness) for Mac OSX command-line
+brew "ddcctl"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Banner-like program prints strings as ASCII art
@@ -56,8 +58,6 @@ brew "thefuck"
 brew "watch"
 # Tool for managing your YubiKey configuration
 brew "ykman"
-# Tracks most-used directories to make cd smarter
-brew "z"
 
 # to install jp
 tap "jmespath/jmespath"
