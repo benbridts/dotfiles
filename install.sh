@@ -36,7 +36,11 @@ echo "=== Check Appstore integration ==="
 # brew bundle, but that would also be were we install it
 brew install mas
 # Make sure we are signed in to the apple store
-if ! mas account >/dev/null; then
+if mas account >/dev/null; then
+  echo "Signed in to the apple store"
+elif mas list >/dev/null; then
+  echo "mas list worked"
+else
   echo "Please sign in to the AppStore" >&2
   exit 1
 fi
