@@ -75,3 +75,4 @@ update_hardware_uuid
 COMPUTER_NAME=$(get_setting_from_keychain COMPUTER_NAME 'This will be used as the hostname')
 HOMEBREW_GITHUB_API_TOKEN=$(get_setting_from_keychain HOMEBREW_GITHUB_API_TOKEN 'https://github.com/settings/tokens')
 MOOM_LICENCES_BASE64=$(get_setting_from_keychain MOOM_LICENCES_BASE64 'cat moomlicense | base64 | pbcopy # you might have to update this in KeyChain Access')
+OPENWEATHERMAP_API_TOKEN=$(get_setting_from_keychain OPENWEATHERMAP_API_TOKEN 'https://home.openweathermap.org/api_keys')

@@ -40,3 +40,11 @@ fish -c 'omf update'
 # install things with omf
 fish -c 'omf install bobthefish aws'
 fish -c 'omf theme bobthefish'
+# git completions
+fish -c 'omf install https://github.com/jhillyerd/plugin-git'
+# faster thefuck integration
+fish -c 'omf install thefuck'
+# weather
+fish -c 'omf install weather'
+fish -c 'omf reload'  # https://github.com/oh-my-fish/plugin-weather/issues/38
+fish -c "config weather --set api-key ${OPENWEATHERMAP_API_TOKEN}"  # https://home.openweathermap.org/api_keys
