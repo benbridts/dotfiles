@@ -1,2 +1,2 @@
-cask "docker"
-cask "kitematic"
+brew "docker"
+brew "colima"
