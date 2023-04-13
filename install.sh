@@ -76,7 +76,7 @@ pipx inject mypy mypy-extensions
 pipx inject httpie \
   httpie-aws-authv4 \
   httpie-image
-pipx inject cfn-lint pygraphviz
+# pipx inject cfn-lint pygraphviz
 
 # upgrade all
 # If python was updated, run "pipx uninstall-all" to remove all packages

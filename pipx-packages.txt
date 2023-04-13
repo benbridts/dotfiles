@@ -13,7 +13,6 @@ cloudformation-cli
 cookiecutter
 doitlive
 git-remote-codecommit
-graphviz2drawio
 httpie
 mypy
 poetry
