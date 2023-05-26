@@ -28,6 +28,7 @@ rm -rf ~/.gradle/caches
 find ~/src -type d -path '*/.aws-sam/build' -print -exec rm -rf \{\} +
 find ~/src -type d -name '.venv' -print -exec rm -rf \{\} +
 find ~/src -type d -name 'venv' -print -exec rm -rf \{\} +
+find ~/src -type d -name 'node_modules' -print -exec rm -rf \{\} +
 
 echo "done"
 echo "Current disk usage"
