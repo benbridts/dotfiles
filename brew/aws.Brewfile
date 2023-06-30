@@ -1,4 +1,5 @@
-tap "aws/aws"
+tap "aws/aws"  # https://github.com/aws/homebrew-aws contains the ssm agent
+tap "aws/tap"  # https://github.com/aws/homebrew-tap contains smithy, among others
 
 # Official Amazon AWS command-line interface
 brew "awscli"
@@ -10,6 +11,7 @@ brew "cloudformation-guard"
 brew "rain"
 # Tool to build, change, and version infrastructure
 brew "terraform"
+brew "smithy-cli"
 
 cask "amazon-ssm-agent"
 cask "aws-vault"
