@@ -1,16 +1,12 @@
 aws-encryption-sdk-cli
 aws-gate
 aws-sam-cli
-aws-shell
-awsebcli
-ansible --include-deps
 git+https://github.com/benbridts/arn-info.git#egg=arn-info
 black
 cfn-lint
 cfn_flip
 git+https://github.com/WeAreCloudar/cloudconformity-scanner.git#egg=cloudconformity-scanner
 cloudformation-cli
-cookiecutter
 doitlive
 git-remote-codecommit
 httpie
@@ -18,5 +14,4 @@ mypy
 poetry
 pre-commit
 pylint
-git+https://github.com/bordaigorl/rmview.git#egg=rmview
 yamllint
