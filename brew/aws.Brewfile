@@ -13,5 +13,4 @@ brew "rain"
 brew "terraform"
 brew "smithy-cli"
 
-cask "amazon-ssm-agent"
 cask "aws-vault"

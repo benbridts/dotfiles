@@ -1,13 +1,9 @@
-# Download with resuming and segmented downloading
-brew "aria2"
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Color-highlighted diff(1) output
 brew "colordiff"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
-# Dell / DDC monitor controls (brightness) for Mac OSX command-line
-brew "ddcctl"
 # Convert text between DOS, UNIX, and Mac formats
 brew "dos2unix"
 # Banner-like program prints strings as ASCII art
@@ -75,7 +71,6 @@ cask "font-hack-nerd-font"
 cask "font-inconsolata-nerd-font"
 cask "gimp"
 cask "google-chrome"
-cask "grammarly"
 cask "iterm2"
 cask "keepingyouawake"
 cask "moom"
@@ -86,7 +81,6 @@ cask "rocket"
 cask "signal"
 cask "spotify"
 cask "tuxera-ntfs"
-cask "vanilla"
 cask "vlc"
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825

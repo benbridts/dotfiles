@@ -8,4 +8,3 @@ brew "groovysdk"
 brew "maven"
 
 cask "corretto"
-cask "corretto8"
